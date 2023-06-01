@@ -10,5 +10,5 @@ int main() {
 	double AreaCircle = 3.14 * pow(radius, 2);
 	cout << "Area of the Circle: " << AreaCircle;
 	return 0;
-	
+	//Area of circle
 }
