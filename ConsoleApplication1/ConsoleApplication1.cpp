@@ -1,10 +1,11 @@
-#include <iostream>
-#include<cmath>
-#include<cstdlib>
-#include<ctime>
+#include <iostream> //print & Scan statement
+#include<cmath> //power
+#include<cstdlib> //random
+#include<ctime> //time
+#include<string> //string
 
 using namespace std;
-
+  
 int main() {
 	//Area of circle
 	cout << "Enter the radius of a circle: ";
@@ -18,7 +19,6 @@ int main() {
 	srand(time(nullptr));
 	int Dice = (rand() % (6-1+1))+1;  //[rand()%(maxTerm-minTerm+1]+1
 	cout << "Rolling a Dice : " << Dice << endl;
-
 
 
 	return 0;
